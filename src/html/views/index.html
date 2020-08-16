@@ -1,0 +1,150 @@
+<% var data = {
+  title: "Portfolio",
+  author: "SHAP"
+}; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+<div class="wrapper">
+  <section class="cards">
+    <div class="container">
+      <div class="row cards__row">
+        <div class="col-md-4 cards__col">
+          <div class="cards__box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
+            <img src="img/stopwatch.svg" alt="" class="cards__img">
+            <h5 class="cards__title">On time</h5>
+            <p class="cards__description">
+              All i want to have client setisfaction & this is my aim
+            </p>
+            <a href="#" class="cards__btn">Learn more</a>
+          </div>
+        </div>
+        <div class="col-md-4 cards__col">
+          <div class="cards__box cards__box-active" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1300">
+            <img src="img/safe-box.svg" alt="" class="cards__img">
+            <h5 class="cards__title">Clean work</h5>
+            <p class="cards__description">
+              All i want to have client setisfaction & this is my aim
+            </p>
+            <a href="#" class="cards__btn">Learn more</a>
+          </div>
+        </div>
+        <div class="col-md-4 cards__col">
+          <div class="cards__box" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1400">
+            <img src="img/icon.svg" alt="" class="cards__img">
+            <h5 class="cards__title">Client setisfaction</h5>
+            <p class="cards__description">
+              All i want to have client setisfaction & this is my aim
+            </p>
+            <a href="#" class="cards__btn">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio">
+    <div class="container d-flex align-items-center justify-content-center flex-column">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="portfolio__title">my portfolio</h2>
+          <div class="portfolio__subtitle">Web & App</div>
+        </div>
+      </div>
+      <div class="row portfolio__row">
+        <div class="col-md-4 portfolio__col"><img data-aos="zoom-in" data-aos-duration="1500" src="img/img-1.png" alt="" class="portfolio__img img-fluid"></div>
+        <div class="col-md-4 portfolio__col"><img data-aos="zoom-in" data-aos-duration="1500" src="img/img-2.png" alt="" class="portfolio__img img-fluid"></div>
+        <div class="col-md-4 portfolio__col"><img data-aos="zoom-in" data-aos-duration="1500" src="img/img-3.png" alt="" class="portfolio__img img-fluid"></div>
+      </div>
+      <div class="row portfolio__row">
+        <div class="col-md-8 portfolio__col d-flex align-items-center justify-content-center">
+          <div class="portfolio__active">
+            <div class="portfolio__box">
+              <h3 class="portfolio__header">portfolio</h3>
+              <p class="portfolio__description">
+                Writing paragraphs takes practice, but what should students write
+                about? Good paragraph writing prompts allow students to write
+                about what they know and like, so their focus can be on the writing
+                process and using the four essential elements.
+              </p>
+            </div>
+            <div class="portfolio__bg portfolio__img img-fluid"></div>
+            <img src="img/img-4.png" alt="" class="portfolio__img portfolio__img-352px img-fluid">
+            <div class="portfolio__full-view">
+              <span class="portfolio__full-view-text">full view</span>
+              <img src="img/expand.svg" alt="" class="portfolio__full-view-icon">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 portfolio__col"><img data-aos="zoom-in" data-aos-duration="1500" src="img/img-5.png" alt="" class="portfolio__img img-fluid"></div>
+      </div>
+      <div class="row portfolio__row">
+        <div class="col-md-4 portfolio__col"><img data-aos="zoom-in" data-aos-duration="1500" src="img/img-6.png" alt="" class="portfolio__img img-fluid"></div>
+        <div class="col-md-4 portfolio__col"><img data-aos="zoom-in" data-aos-duration="1500" src="img/img-7.png" alt="" class="portfolio__img img-fluid"></div>
+        <div class="col-md-4 portfolio__col"><img data-aos="zoom-in" data-aos-duration="1500" src="img/img-8.png" alt="" class="portfolio__img img-fluid"></div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex align-items-center justify-content-center">
+          <div class="about__box">
+            <h2 class="about__title">Valuable Testimonial</h2>
+            <div class="about__subtitle">See People Say About Me</div>
+            <div class="about__body">
+              <div class="about__list">
+                  <div class="about__item">
+                    <img src="img/person.svg" alt="" class="about__img img-fluid">
+                    <h5 class="about__header">Jhon Wick, New York</h5>
+                    <p class="about__description">
+                      Writing paragraphs takes practice, but what should students write about?
+                      Good paragraph writing prompts allow students to write about what they know and like,
+                      so their focus can be on the writing process and using the four essential elements.
+                    </p>
+                  </div>
+                  <div class="about__item">
+                    <img src="img/person.svg" alt="" class="about__img img-fluid">
+                    <h5 class="about__header">Jhon Wick, New York</h5>
+                    <p class="about__description">
+                      Writing paragraphs takes practice, but what should students write about?
+                      Good paragraph writing prompts allow students to write about what they know and like,
+                      so their focus can be on the writing process and using the four essential elements.
+                    </p>
+                  </div>
+                  <div class="about__item">
+                    <img src="img/person.svg" alt="" class="about__img img-fluid">
+                    <h5 class="about__header">Jhon Wick, New York</h5>
+                    <p class="about__description">
+                      Writing paragraphs takes practice, but what should students write about?
+                      Good paragraph writing prompts allow students to write about what they know and like,
+                      so their focus can be on the writing process and using the four essential elements.
+                    </p>
+                  </div>
+                </div>
+              <div class="about__bg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="hire">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="hire__box" data-aos="zoom-in-down" data-aos-duration="3000">
+            <h2 class="hire__title">Want To Hire Me?</h2>
+            <div class="hire__description">If You Like My Work</div>
+            <form action="" class="hire__form">
+              <div class="hire__body">
+                <div class="hire__content d-flex flex-column text-left">
+                  <input name="email" type="text" class="hire__input mb-1" placeholder="enter your email">
+                </div>
+                <button type="submit" class="hire__btn">Hire Me</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<%= _.template(require('./../includes/footer.html').default)(data) %>
